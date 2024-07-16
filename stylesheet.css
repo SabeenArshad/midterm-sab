@@ -1,0 +1,80 @@
+
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      div.container{
+        border: 5px solid #979393;
+        width: 80%;
+        margin: 0 auto 0 auto;
+      }
+      header{
+        background-color: aliceblue;
+      }
+      .hero img{
+        width: 100%;
+      }
+      div.left, div.right, div.left, div.right{
+        border: 3px dotted rgb(183, 181, 181); 
+        width: 40%;
+        margin-right: 6%;
+        float: right;
+
+      }
+      div.left{
+        float:left;
+        margin-left:6%;
+      }
+      div.right{
+        float:right;
+        margin-right: 6%;
+      }
+      
+      aside img{
+        width: 100%;
+      }
+      aside{
+       overflow: hidden;
+      }
+
+      nav{
+        background-color: gainsboro;
+
+      }
+
+      ul{
+        text-align: center;
+
+      }
+
+      li{
+        display: inline-block;
+        width: 150px;
+        border: 2px solid white;
+    
+        line-height: 3em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-variant: small-caps;;
+
+      }
+      a{
+        color: #000;
+        text-decoration: solid;
+        border: 1px solid gainsboro;
+        display: block;
+
+      }
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      footer{
+        background-color: gainsboro;
+      }
+      .footercontainer{
+        width: 80%;
+        padding: 70px 30px 20px;;
+      }
+     
